@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directives-practice';
+  numbers = [1,2,3,4,5,6,7]
+  onlyOdd = false;
+  oddNumbers = [1,3,5]
+  evenNumbers = [2,4]
+  value = 10
 }
